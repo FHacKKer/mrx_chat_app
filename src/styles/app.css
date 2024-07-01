@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s all linear;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  background: #212529;
+}
+
+button,
+a {
+  width: 250px;
+  display: block;
+  height: 50px;
+  text-align: center;
+  border: 2px solid cornflowerblue;
+  font-size: 19px;
+  margin: 20px;
+  color: white;
+}
+button:hover {
+  background: #212529;
+  border-color: aquamarine;
+  color: white;
+}
